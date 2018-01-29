@@ -1,3 +1,7 @@
+**NOTE**: As mentioned when I committed this code, this module would only be useful for a short period of time as it was meant to be a quick fix. VNet gateways are now supported in Terraform, so this will no longer be useful. Consider this quick fix repo now deprecated.
+
+https://www.terraform.io/docs/providers/azurerm/r/virtual_network_gateway.html
+
 # Overview:
 
 Terraform module that creates an Azure Virtual Network, Virtual Gateway (via [azurerm_template_deployment](https://www.terraform.io/docs/providers/azurerm/r/template_deployment.html)), and a Gateway subnet.
